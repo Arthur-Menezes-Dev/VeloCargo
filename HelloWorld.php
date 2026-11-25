@@ -20,6 +20,7 @@
         public static function menuPrincipal () {
             echo "\n";
             echo "1 - Veículos em Rota\n";
+			echo "2 - Veículos do Sistema\n";
 			echo "0 - Sair\n";
 			echo "Selecione a opção: ";
 			return self::recebeResposta();

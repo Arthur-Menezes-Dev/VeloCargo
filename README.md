@@ -9,7 +9,7 @@ https://onecompiler.com/php/45a8mmfx7
 
 
 # HelloWord
-```
+``` php
 <?php
     /*Os 3 Problemas:
     - primeiro, motoristas saindo
@@ -86,7 +86,7 @@ foreach ($frota as $veiculo) {
 
 ## Veiculo
 
-```
+``` php
 <?php
 
 
@@ -140,7 +140,7 @@ class Veiculo {
 ```
 
 ## MOTO
-```
+``` php
 <?php
 
 
@@ -188,7 +188,7 @@ class Moto extends Veiculo {
 
 # UtilitarioUrb
 
-```
+``` php
 <?php
 
 
@@ -227,7 +227,7 @@ class UtilitarioUrb extends Veiculo {
 ```
 
 ## CaminhaoRefri
-```
+``` php
 <?php
 
 
@@ -269,7 +269,7 @@ class CaminhaoRefri extends Veiculo {
 }
 ```
 ## ClienteRemetente
-```
+``` php
 <?php
 
 
@@ -307,7 +307,7 @@ class ClienteRemetente {
 ```
 ## Pedido 
 
-```
+``` php
 <?php
 
 
@@ -327,7 +327,7 @@ class Pedido {
 ```
 
 ## Item
-```
+``` php
 <?php
 
 

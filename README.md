@@ -9,7 +9,7 @@ https://onecompiler.com/php/45a8mmfx7
 
 
 # HelloWord
-
+```
 <?php
     /*Os 3 Problemas:
     - primeiro, motoristas saindo
@@ -31,10 +31,10 @@ em quilogramas e status de disponibilidade),
 
 -
     */
+```
 
 
-
-
+``` php
 // Usa-se require_once (e não "use") pois as classes não utilizam namespaces
 require_once 'Moto.php';
 require_once 'UtilitarioUrb.php';
@@ -82,10 +82,11 @@ foreach ($frota as $veiculo) {
     echo "--------------------------------------------------\n";
 }
 ?>
-
+```
 
 ## Veiculo
 
+```
 <?php
 
 
@@ -136,9 +137,10 @@ class Veiculo {
         return $this->statusDisponibilidade;
     }
 }
+```
 
 ## MOTO
-
+```
 <?php
 
 
@@ -182,9 +184,11 @@ class Moto extends Veiculo {
         return $this->bauTermico;
     }
 }
+```
 
 # UtilitarioUrb
 
+```
 <?php
 
 
@@ -220,9 +224,10 @@ class UtilitarioUrb extends Veiculo {
         return $this->volume;
     }
 }
+```
 
 ## CaminhaoRefri
-
+```
 <?php
 
 
@@ -262,9 +267,9 @@ class CaminhaoRefri extends Veiculo {
 
 
 }
-
+```
 ## ClienteRemetente
-
+```
 <?php
 
 
@@ -299,10 +304,10 @@ class ClienteRemetente {
         return $this->enderecoColeta;
     }
 }
-
+```
 ## Pedido 
 
-
+```
 <?php
 
 
@@ -319,9 +324,10 @@ class Pedido {
         return $this->distanciaKm;
     }
 }
-
+```
 
 ## Item
+```
 <?php
 
 
@@ -339,7 +345,7 @@ class Item {
         return $this->descricao;
     }
 }
-
+```
 
 
 

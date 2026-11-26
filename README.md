@@ -1138,28 +1138,3 @@ class Pedido {
     }
 }
 ```
-
-## Item
-``` php
-<?php
-
-
-class Item {
-    protected $descricao;
-    // Aguardando o(s) próximo(s) atributo(s)...
-
-
-    public function __construct($descricao) {
-        $this->descricao = $descricao;
-    }
-
-
-    public function getDescricao() {
-        return $this->descricao;
-    }
-}
-```
-
-
-
-
